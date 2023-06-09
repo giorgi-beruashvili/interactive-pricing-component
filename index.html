@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive pricing component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="simple-pricing">
+      <h1 class="title">Simple, traffic-based pricing</h1>
+      <p class="sign-up">Sign-up for our 30-day trial. <br> No credit card required.</p>
+    </div>
+  </header>
+  <main>
+    <section class="top">
+      <div class="pageviews">
+        <div class="pageviews-left">
+          <h2>100K Pageviews</h2>
+        </div>
+        <div class="pageviews-right">
+          <span class="money-desktop">$16.00</span>
+          <p>/month</p>
+        </div>
+      </div>
+      <div class="div-range">
+        <input type="range" class="range">
+      </div>
+      <div class="monthly-tax">
+        <span class="money">$16.00</span>
+        <p class="month">/month</p>
+      </div>
+    </section>
+    <section class="inner">
+      <span class="monthly">Monthly Billing</span>
+      <label class="toggle" for="uniqueID">
+        <input type="checkbox" class="toggle__input" id="uniqueID" />
+        <span class="toggle-track">
+            <span class="toggle-indicator">
+                <span class="checkMark">
+                    <svg viewBox="0 0 24 24" id="ghq-svg-check" role="presentation" aria-hidden="true">
+                        <path d="M9.86 18a1 1 0 01-.73-.32l-4.86-5.17a1.001 1.001 0 011.46-1.37l4.12 4.39 8.41-9.2a1 1 0 111.48 1.34l-9.14 10a1 1 0 01-.73.33h-.01z"></path>
+                    </svg>
+                </span>
+            </span>
+        </span>
+      </label>
+      <p>Yearly Billing </p>
+      <button class="persent">25%<span>discount</span></button>
+    </section>
+    <div class="line"></div>
+    <section class="bottom">
+      <div class="offers">
+        <div class="offers-first">
+          <img src="./images/icon-check.svg" alt="icon-check" >
+          <p class="offers-paragraph">Unlimited websites</p>
+        </div>
+        <div class="offers-second">
+          <img src="./images/icon-check.svg" alt="icon-check" >
+          <p class="offers-paragraph">100% data ownership</p>
+        </div>
+        <div class="offers-third">
+          <img src="./images/icon-check.svg" alt="icon-check" >
+          <p class="offers-paragraph">Email reports</p>
+        </div>
+      </div>
+      <div class="button-reset">
+        <input type="button" class="button" value="Start my trial">
+      </div>
+    </section>
+  </main>
+</body>
+</html>
